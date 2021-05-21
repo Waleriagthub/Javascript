@@ -1,5 +1,7 @@
+function convertFahrToCelsius(F){
+   let cTemp = [];
+}
 var F = window.prompt("Enter your number: "); 
-alert("Your number is " + F);
 
   if(isNaN(F)){
   console.log(`${F} is not a valid number but a/an ${F}.`);
@@ -7,6 +9,7 @@ alert("Your number is " + F);
   
   else {
   cTemp = (F - 32) * 5/9;
+  //console.log(cTemp);
   console.log(cTemp.toFixed(4));
 }
 
